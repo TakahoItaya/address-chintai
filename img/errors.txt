@@ -1,0 +1,2 @@
+[2021-7-17 11:38:52] layer "xxxxx@example.com": Unsupported extension: com
+[2021-7-17 11:55:04] layer "レイヤー 3 のコピー.jpg": Duplicate path: レイヤー 3 のコピー.jpg

@@ -1,0 +1,129 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    .footer-cont {
+    }
+    .header-logo {
+        margin-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 75px;
+        img {
+            width: 325px;
+            height: 88px;
+        }
+        @media print, screen and (min-width: 320px) and (max-width: 599px) {
+            img {
+                width: 107px;
+                height: 30px;
+            }
+        }
+    }
+    @media print, screen and (min-width: 320px) and (max-width: 599px) {
+        .header-logo {
+            margin-top: 23px;
+            padding-top: 0;
+            padding-bottom: 15px;
+        }
+    }
+    .phone {
+        display: flex;
+
+        margin-right: 20px;
+        padding-top: 73px;
+    }
+    @media print, screen and (min-width: 320px) and (max-width: 599px) {
+        .phone {
+            padding-top: 0px;
+            margin-top: 23px;
+            margin-right: 20px;
+        }
+    }
+    .phone-image {
+        margin-left: 10px;
+        margin-top: 8px;
+        img {
+            width: 24px;
+            height: 33px;
+        }
+        @media print, screen and (max-width: 760px) {
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        @media print, screen and (min-width: 320px) and (max-width: 599px) {
+            img {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+    @media print, screen and (min-width: 320px) and (max-width: 599px) {
+        .phone-image {
+            margin-top: 0;
+        }
+    }
+
+    .phone-number {
+        .number {
+            color: #f89508;
+            font-family: "Anton";
+            font-size: 36px;
+            letter-spacing: 0.1em;
+            margin-left: 15px;
+        }
+        @media print, screen and (max-width: 760px) {
+            .number {
+                font-size: 24px;
+            }
+        }
+        @media print, screen and (min-width: 320px) and (max-width: 599px) {
+            .number {
+                font-size: 16px;
+            }
+        }
+        @media print, screen and (min-width: 320px) and (max-width: 599px) {
+            .number {
+                font-size: 16px;
+            }
+        }
+        .time {
+            color: #f89508;
+            font-size: 23px;
+            font-family: "Yu Gothic Medium", sans-serif;
+            letter-spacing: 0.08em;
+        }
+        @media print, screen and (max-width: 760px) {
+            .time {
+                font-size: 15px;
+            }
+        }
+
+        @media print, screen and (min-width: 320px) and (max-width: 599px) {
+            .time {
+                font-size: 11px;
+            }
+        }
+    }
+}
+@media print, screen and (max-width: 1400px) {
+    .footer {
+        width: 100%;
+    }
+}
+@media print, screen and (max-width: 1100px) {
+    .footer {
+    }
+}
+@media print, screen and (max-width: 960px) {
+    .footer {
+    }
+}
+@media print, screen and (max-width: 760px) {
+    .footer {
+    }
+}
+@media print, screen and (min-width: 320px) and (max-width: 599px) {
+    .footer {
+    }
+}
